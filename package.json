@@ -1,6 +1,6 @@
 {
-  "name": "nameprinter",
-  "version": "1.0.0",
+  "name": "@manupeco/nameprinter",
+  "version": "1.0.2",
   "description": "Our first package",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manupeco/github-registry-ex.git"
+    "url": "https://github.com/manupeco/github-registry-ex.git"
   },
   "author": "Emanuele Pecorari",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manupeco/github-registry-ex/issues"
-  },
-  "homepage": "https://github.com/manupeco/github-registry-ex#readme"
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/manupeco"
+  }
 }
